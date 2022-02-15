@@ -43,6 +43,35 @@ public class Caterpillar
         System.out.println("Green apple: " + GREEN_APPLE_EMOJI);
         System.out.println("Clover: \uD83C\uDF40");
     }
+    // ball : "\uD83E\uDD4E"
+    // runner : "\uD83C\uDFC3"
+    public void ballRoll() throws InterruptedException
+    {
+        System.out.println(WHITE + "Look!" + PURPLE + "A ball is rolling away!");
+        System.out.println(CYAN + "Catch it! \uD83D\uDE32");
+        System.out.println(RED + "\uD83E\uDD4E               " + WHITE + "\uD83C\uDFC3");
+        Thread.sleep(500);
+        System.out.println(RED + "\uD83E\uDD4E              " + WHITE + "\uD83C\uDFC3");
+        Thread.sleep(500);
+        System.out.println(RED + "\uD83E\uDD4E             " + WHITE + "\uD83C\uDFC3");
+        Thread.sleep(500);
+        System.out.println(RED + "\uD83E\uDD4E            " + WHITE + "\uD83C\uDFC3");
+        Thread.sleep(500);
+        System.out.println(RED + "\uD83E\uDD4E           " + WHITE + "\uD83C\uDFC3");
+        Thread.sleep(500);
+        System.out.println(RED + "\uD83E\uDD4E          " + WHITE + "\uD83C\uDFC3");
+        Thread.sleep(500);
+        System.out.println(RED + "\uD83E\uDD4E         " + WHITE + "\uD83C\uDFC3");
+        Thread.sleep(500);
+        System.out.println(RED + "\uD83E\uDD4E      " + WHITE + "\uD83C\uDFC3");
+        Thread.sleep(500);
+        System.out.println(RED + "\uD83E\uDD4E     " + WHITE + "\uD83C\uDFC3");
+        Thread.sleep(500);
+        System.out.println(RED + "\uD83E\uDD4E   " + WHITE + "\uD83C\uDFC3");
+        Thread.sleep(500);
+        System.out.println(RED + "\uD83E\uDD4E" + WHITE + "\uD83C\uDFC3");
+        System.out.println(BLUE_BRIGHT + "You caught it!");
+    }
 
     // this method "throws exceptions" which is an
     // advanced topic you don't need to know for this course, but for more info
